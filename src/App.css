@@ -15,7 +15,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop_shadow(0 0 2em #61dafbaa);
 }
 
 @keyframes logo-spin {
@@ -39,4 +39,43 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.app-logo {
+  max-width: 800px;
+  height: auto;
+}
+
+.app-text {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+  .app-logo {
+    max-width: 100%; /* Ensure logo scales down on smaller screens */
+  }
+
+  .app-text {
+    font-size: 1em; /* Adjust font size for smaller screens */
+  }
+
+  .app-container {
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+}
+
+.app-link {
+  color: white;
+  text-decoration: underline;
 }
