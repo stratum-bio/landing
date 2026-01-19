@@ -4,7 +4,7 @@ const BusinessDescription = () => {
   return (
     <>
       <section className="business-bg min-h-screen w-screen flex flex-col items-center justify-center text-[#333] p-10 box-border">
-        <h2 className="text-[2.5rem] mb-8">The Platform for Precision Medicine</h2>
+        <h2 className="text-[2.5rem] mb-8">The Research Platform for Precision Medicine</h2>
         <p className="max-w-[1100px] text-[1.25rem] leading-[1.6] text-left mb-12">
           We aim to transform how multidisciplinary teams collaborate on solving complex problems rooted in biology & drug development,
           bridging the gap between siloed R&D and global clinical delivery to accelerate precision medicine.
