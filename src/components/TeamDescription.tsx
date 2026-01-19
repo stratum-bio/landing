@@ -15,11 +15,8 @@ const TeamDescription = () => {
         <p className="text-[1.1rem] leading-[1.6] text-left">
           Former Meta AI technical lead & manager with 10+ years of research
           experience in applied research in machine learning, including brain
-          computer interfaces and computer vision.
-        </p>
-        <p className="text-[1.1rem] leading-[1.6] mt-4 text-left w-full">
-          Experience in AI for drug development using deep learning for omics
-          data.
+          computer interfaces and computer vision. Transitioned to
+          deep learning for omics after moving to Paris from San Francisco.
         </p>
       </div>
     </section>
