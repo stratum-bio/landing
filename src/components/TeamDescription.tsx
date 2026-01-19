@@ -2,7 +2,7 @@ import '../App.css'
 
 const TeamDescription = () => {
   return (
-    <section className="team-bg h-screen w-screen flex flex-col items-center justify-center text-[#333] p-10 box-border">
+    <section className="team-bg min-h-screen w-screen flex flex-col items-center justify-center text-[#333] p-10 box-border">
       <h2 className="text-[2.5rem] mb-12">Our Team</h2>
       <div className="flex flex-col items-center max-w-[600px] text-center">
         <img 
