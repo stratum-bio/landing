@@ -76,6 +76,33 @@
 }
 
 .app-link {
+
   color: white;
+
   text-decoration: underline;
+
+}
+
+
+
+.business-bg {
+
+  background-color: #f9f9f9;
+
+}
+
+
+
+.product-bg {
+  background-color: white;
+
+
+}
+
+
+
+.team-bg {
+
+  background-color: #ececec;
+
 }

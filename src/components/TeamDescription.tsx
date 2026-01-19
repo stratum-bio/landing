@@ -1,43 +1,21 @@
+import '../App.css'
+
 const TeamDescription = () => {
   return (
-    <section style={{ 
-      height: '100vh', 
-      width: '100vw', 
-      display: 'flex', 
-      flexDirection: 'column',
-      alignItems: 'center', 
-      justifyContent: 'center', 
-      backgroundColor: '#ececec', 
-      color: '#333',
-      padding: '40px',
-      boxSizing: 'border-box'
-    }}>
-      <h2 style={{ fontSize: '2.5rem', marginBottom: '3rem' }}>Our Team</h2>
-      <div style={{ 
-        display: 'flex', 
-        flexDirection: 'column', 
-        alignItems: 'center', 
-        maxWidth: '600px', 
-        textAlign: 'center' 
-      }}>
+    <section className="team-bg h-screen w-screen flex flex-col items-center justify-center text-[#333] p-10 box-border">
+      <h2 className="text-[2.5rem] mb-12">Our Team</h2>
+      <div className="flex flex-col items-center max-w-[600px] text-center">
         <img 
           src="/portrait-square.png" 
           alt="Ruben Sethi" 
-          style={{ 
-            width: '250px', 
-            height: '250px', 
-            borderRadius: '50%', 
-            marginBottom: '1.5rem',
-            objectFit: 'cover',
-            boxShadow: '0 4px 20px rgba(0,0,0,0.1)'
-          }} 
+          className="w-[400px] h-[400px] rounded-full mb-6 object-cover shadow-[0_4px_20px_rgba(0,0,0,0.1)]"
         />
-        <h3 style={{ fontSize: '1.75rem', margin: '0 0 0.5rem 0' }}>Ruben Sethi</h3>
-        <p style={{ fontWeight: 'bold', color: '#555', marginBottom: '1rem' }}>Founder</p>
-        <p style={{ fontSize: '1.1rem', lineHeight: '1.6' }}>
+        <h3 className="text-[1.75rem] m-0 mb-2">Ruben Sethi</h3>
+        <p className="font-bold text-[#555] mb-4">Founder</p>
+        <p className="text-[1.1rem] leading-[1.6] text-left">
           Former Meta AI technical lead & manager with 10+ years of research experience in applied research in machine learning, including brain computer interfaces and computer vision.
         </p>
-        <p style={{ fontSize: '1.1rem', lineHeight: '1.6', marginTop: '1rem' }}>
+        <p className="text-[1.1rem] leading-[1.6] mt-4 text-left w-full"> 
           Experience in AI for drug development using deep learning for omics data.
         </p>
       </div>

@@ -1,36 +1,16 @@
+import '../App.css'
+
 const ProductDescription = () => {
   return (
-    <section style={{ 
-      minHeight: '100vh', 
-      width: '100vw', 
-      display: 'flex', 
-      flexDirection: 'column',
-      alignItems: 'center', 
-      justifyContent: 'center', 
-      backgroundColor: '#dfdfdf', 
-      color: '#333',
-      padding: '4rem 2rem',
-      textAlign: 'center'
-    }}>
-      <p style={{ 
-        maxWidth: '800px', 
-        fontSize: '1.5rem', 
-        lineHeight: '1.6', 
-        fontWeight: '500',
-        margin: '0 auto'
-      }}>
-        Analyze and explore your data leveraging bleeding edge computational methods with ease.
+    <section className="product-bg min-h-screen w-screen flex flex-col items-center justify-center text-[#333] py-16 px-8 text-left">
+      <p className="text-2xl leading-[1.6] font-medium mb-4">
+        Analyze and evaluate clinical research evidence with the latest AI models at your fingertips
       </p>
+        <p className="text-lg mb-8">Give the whole team access to interact with every view of the data, putting AI into anyone's hands regardless of their background</p>
       <img 
         src="/llm-pipeline.gif" 
         alt="Product Demo" 
-        style={{ 
-          maxWidth: '90%', 
-          maxHeight: '70vh', 
-          borderRadius: '12px', 
-          boxShadow: '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)',
-          marginBottom: '3rem'
-        }} 
+        className="max-w-[90%] max-h-[70vh] mb-12"
       />
     </section>
   )
