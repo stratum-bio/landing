@@ -1,15 +1,16 @@
-import stratumLogo from '/stratum-logo-dark.svg'
-import './App.css'
+import Landing from './Landing'
+import BusinessDescription from './components/BusinessDescription'
+import TeamDescription from './components/TeamDescription'
+import ProductDescription from './components/ProductDescription'
 
 function App() {
   return (
-    <div className="app-container">
-      <img src={stratumLogo} className="logo app-logo" alt="Stratum Bio logo" />
-      <p className="app-text">Tell us you're thinking about us</p>
-      <p>
-        <a href="mailto:hello@stratum.bio" className="app-link">hello@stratum.bio</a>
-      </p>
-    </div>
+    <>
+      <Landing />
+      <BusinessDescription />
+      <ProductDescription />
+      <TeamDescription />
+    </>
   )
 }
 
