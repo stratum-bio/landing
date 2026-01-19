@@ -10,12 +10,11 @@ const Landing = () => {
           className="logo app-logo max-w-[800px] h-auto md:max-w-full transition-[filter] duration-300 hover:drop-shadow-[0_0_2em_#646cffaa]" 
           alt="Stratum Bio logo" 
         />
-        <p className="app-text mt-5 text-[1.2em] md:text-[1em]">Tell us you're thinking about us</p>
         <p>
           <a href="mailto:hello@stratum.bio" className="app-link text-white underline">hello@stratum.bio</a>
         </p>
       </div>
-      <div className="h-[30vh] w-screen bg-linear-to-b from-[#10273c] to-[#f9f9f9]" />
+      <div className="h-[30vh] w-screen bg-linear-to-b from-[#10273c] to-[#e2e8f0]" />
     </>
   )
 }

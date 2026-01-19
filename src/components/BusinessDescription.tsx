@@ -9,7 +9,7 @@ const BusinessDescription = () => {
           We are building a multidisciplinary computational platform designed to model the biomarker lifecycle, from discovery and rigorous validation to reproducibility and clinical operationalization. Our platform provides a unified environment where medical and computational stakeholders leverage advanced machine learning to solve complex research questions within a standardized, auditable framework individually catered to different disciplines. We initially empower academic teams to scale discovery with limited resources, before transitioning to support assay developers in establishing technical efficacy, and providing independent high-fidelity evaluations for drug development assets. Ultimately, we aim to transform how large pharmaceutical teams collaborate, bridging the gap between siloed R&D and global clinical delivery to accelerate precision medicine.
         </p>
       </section>
-      <div className="h-[30vh] w-screen bg-linear-to-b from-[#f9f9f9] to-[#ffffff]" />
+      <div className="h-[30vh] w-screen bg-linear-to-b from-[#e2e8f0] to-[#ffffff]" />
     </>
   )
 }
