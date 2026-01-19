@@ -14,7 +14,7 @@ const TeamDescription = () => {
         <p className="font-bold text-[#555] mb-4">Founder</p>
         <p className="text-[1.1rem] leading-[1.6] text-left">
           Former Meta AI technical lead & manager with 10+ years of research
-          experience in applied research in machine learning, including brain
+          experience in applied machine learning, including brain
           computer interfaces and computer vision. Transitioned to
           deep learning for omics after moving to Paris from San Francisco.
         </p>
