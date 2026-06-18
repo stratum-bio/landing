@@ -19,7 +19,10 @@ const Landing = () => {
           </a>
         </p>
       </div>
-      <div className="h-[30vh] w-screen bg-linear-to-b from-[#10273c] to-[#e2e8f0]" />
+      <div
+        className="h-[60vh] w-screen"
+        style={{ background: "linear-gradient(in oklab to bottom, #10273c, #e2e8f0)" }}
+      />
     </>
   );
 };
